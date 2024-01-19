@@ -1,0 +1,19 @@
+[package]
+name = "demo-page"
+version = "0.1.0"
+authors = ["Berkus Decker <berkus+crates@madfire.net>"]
+description = "Demo application to show usage of colorhash. To launch, run `trunk serve` from this directory."
+edition = "2021"
+license = "MIT OR Apache-2.0"
+categories = ["graphics"]
+publish = false
+
+[dependencies]
+colorhash = { version = "0.1.0", path = "../colorhash" }
+once_cell = "1.19"
+rand = "0.8"
+
+leptos = { version = "0.5", features = ["nightly", "csr"] }
+console_log = "1.0"
+log = "0.4"
+console_error_panic_hook = "0.1"
