@@ -2,7 +2,7 @@
 
 Convert a string to a color representation consistently by using a sha256 hash.
 
-Based on [color-hash](https://github.com/zenozeng/color-hash/) for JS. Doesn't use a custom hashing function, it's always sha256. Doesn't yet support custom hue ranges like the original, although it is planned.
+Based on [color-hash](https://github.com/zenozeng/color-hash/) for JS. Doesn't use a custom hashing function, it's always sha256.
 
 To try out how it works:
 
