@@ -15,4 +15,4 @@ trunk serve
 
 You should see a result like this:
 
-![Demo page](colorhash-demo.png)
+![Demo page](https://raw.githubusercontent.com/berkus/colorhash/main/colorhash-demo.png)
