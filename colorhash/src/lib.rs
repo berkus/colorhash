@@ -22,17 +22,20 @@ pub struct ColorHash {
     hue_ranges: Vec<Range<f64>>,
 }
 
-impl ColorHash {
+impl Default for ColorHash {
     /// Create a default instance.
     ///
-    /// No hue ranges support yet.
-    pub fn new() -> Self {
+    /// In the default variant, there are no hue ranges, standard saturation and lightness ranges.
+    fn default() -> Self {
         Self {
             s: vec![35., 50., 65.], // note that length 3 is a prime
             l: vec![35., 50., 65.], // note that length 3 is a prime
             hue_ranges: vec![],
         }
     }
+}
+
+impl ColorHash {
 
     /// Returns the hash in HSL.
     ///
