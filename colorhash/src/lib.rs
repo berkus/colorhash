@@ -16,6 +16,7 @@ fn rgb_hash(key: &str) -> usize {
 }
 
 /// Convert a string to its color representation using a hash function.
+#[derive(Clone, Debug, PartialEq)]
 pub struct ColorHash {
     s: Vec<f64>,
     l: Vec<f64>,
